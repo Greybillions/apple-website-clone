@@ -41,7 +41,7 @@ const ModelView = ({
         ref={controlRef}
         enableZoom={false}
         enablePan={false}
-        rotateSpeed={0.4}
+        rotateSpeed={0.8}
         target={new THREE.Vector3(0, 0, 0)} // Centers control on model
         // Updates rotation state when rotation ends
         onEnd={() => setRotationState(controlRef.current.getAzimuthalAngle())}
